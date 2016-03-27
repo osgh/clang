@@ -1,0 +1,33 @@
+1.需求：C语言内存空间-项目制作
+2.项目描述：
+	利用C语言，完成如下功能，注意实现成通用子函数形式：
+	1、输入一串字符，计算其中空格的个数。 
+	2、实现删除字符串中空格的功能。
+	3、统计一个int空间中，位为1的个数
+	4、编写一个函数，将数组中n个数按反序存放。
+
+3.目录结构：
+
+mspace
+  |
+  |-include
+  |    | 
+  |    |-string_utils.h
+  |    |-ones_counter.h
+  |    |-array_reverse.h
+  |    |-swap.h
+  |
+  |-src
+  |    |-string_utils.c
+  |    |-ones_counter.c
+  |    |-array_reverse.c
+  |    |-swap.c
+  |    |-main.c
+  |
+  |-bin
+  |
+  |-obj
+  |
+  |-Makefile
+  |
+  |-Readme
